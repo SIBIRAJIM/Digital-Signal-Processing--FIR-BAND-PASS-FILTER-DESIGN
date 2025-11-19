@@ -1,8 +1,11 @@
 # Digital-Signal-Processing--FIR-BAND-PASS-FILTER-DESIGN
+
 ## AIM:
 To generate design of Band Pass FIR digital filter using Window.
+
 ## Software Required:
 MAT LAB R2012.
+
 ## Algorithm:
 Step 1: Open MATLAB and Write the program.
 
@@ -19,6 +22,7 @@ Step 5: Plot the magnitude spectrum with x-label and y-label with suitable title
 Step 6: Terminate the program.
 
 ## PROGRAM: 
+
 ```
 clc; % clear screen
 clear all; % clear screen
@@ -40,8 +44,14 @@ w=0:0.01:pi;
 h=freqz(hn,1,w);
 plot(w/pi,abs(h),'blue');
 ```
+
 ## OUTPUT:
 
+Design of Band pass FIR digital filters using Blackman Window.<br>
+𝐻(𝑒𝑗𝜔)=1 for 5𝜋12≤|𝜔|≤2𝜋3 <br>
+𝐻(𝑒𝑗𝜔)=0 for |𝜔|<5𝜋12,2𝜋3<|𝜔|<𝜋 <br>using Blackman Window, M=19
 <img width="901" height="776" alt="Screenshot 2025-11-12 102812" src="https://github.com/user-attachments/assets/ec94dc91-fdc4-4558-97c8-e41d142a2b03" />
 
 ## RESULT:
+
+Thus the design of Band pass FIR digital filter using Blackman waveforms were plotted and output was verified.
