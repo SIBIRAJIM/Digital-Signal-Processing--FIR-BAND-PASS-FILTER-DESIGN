@@ -53,5 +53,5 @@ Design of Band pass FIR digital filters using Blackman Window.<br>
 <img width="901" height="776" alt="Screenshot 2025-11-12 102812" src="https://github.com/user-attachments/assets/ec94dc91-fdc4-4558-97c8-e41d142a2b03" />
 
 ## RESULT:
+<img width="726" height="275" alt="image" src="https://github.com/user-attachments/assets/4f6896d8-dfa3-432f-94b6-56b8bc7b91a1" />
 
-Thus the design of Band pass FIR digital filter using Blackman waveforms were plotted and output was verified.
